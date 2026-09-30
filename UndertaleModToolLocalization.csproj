@@ -6,8 +6,8 @@
         <LangVersion>latest</LangVersion>
         <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
         <NeutralLanguage>en</NeutralLanguage>
-        <ResourceLanguages>en;zh-CN</ResourceLanguages>
-        <SatelliteResourceLanguages>en;zh-CN</SatelliteResourceLanguages>
+        <ResourceLanguages>en;zh-CN;zh-Hans;ja;ko;pt;tr;arz</ResourceLanguages>
+        <SatelliteResourceLanguages>en;zh-CN;zh-Hans;ja;ko;pt;tr;arz</SatelliteResourceLanguages>
     </PropertyGroup>
 
     <ItemGroup>

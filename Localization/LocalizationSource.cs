@@ -13,7 +13,7 @@ namespace UndertaleModTool.Localization
 
         public event PropertyChangedEventHandler PropertyChanged;
 
-        private CultureInfo _currentCulture = CultureInfo.CurrentUICulture;
+        private CultureInfo _currentCulture = new CultureInfo("arz");
 
         public CultureInfo CurrentCulture
         {
@@ -41,6 +41,7 @@ namespace UndertaleModTool.Localization
 
         public LocalizationSource()
         {
+            CultureInfo.DefaultThreadCurrentUICulture = _currentCulture;
             _manager = new ResourceManager("UndertaleModTool.Localization.Strings", typeof(LocalizationSource).Assembly);
         }
     }
